@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.cover {
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.error {
+    background-color: #D13919;
+    width: 80%;
+    height: 10%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.information {
+    background-color: #136ed6;
+    color: aliceblue;
+    width: 70%;
+    height: 20%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+    .page {
+        font-size: 1em;
+    }
+
+    .cover {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+    .page {
+        font-size: 1.25em;
+    }
+
+    .cover {
+        width: 25%;
+        height: 65%;
+    }
+}
