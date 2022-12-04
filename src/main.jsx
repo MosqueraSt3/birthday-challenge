@@ -7,8 +7,10 @@ import 'bootstrap/dist/js/bootstrap';
 
 import LandingPage from './components/landingPage';
 
+const LandingPageFunc = () => <LandingPage />;
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <LandingPage />
+    <LandingPageFunc />
   </React.StrictMode>
 );
