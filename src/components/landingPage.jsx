@@ -9,10 +9,6 @@ export const LandingPage = () => {
     const [ age, setAge ] = useState(0);
     const [ error, setError ] = useState(null);
 
-    // TODO
-    // ** mejorar input datetime
-    // ** test responsive
-
     const handleChange = (e) => {
         const dateSelected = new Date(e);
         const ageInMilliseconds = Date.now() - dateSelected.getTime();
