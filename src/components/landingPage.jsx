@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import './landingPage.css';
 
-export const LandingPage = () => {
+export default function LandingPage() {
 
     const [ mathBirthday, setMathBirthday ] = useState(0);
     const [ age, setAge ] = useState(0);
